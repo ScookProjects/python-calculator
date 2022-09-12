@@ -16,13 +16,10 @@ class Calculator:
         self.white = '#FFECD1'
 
         self.text = ''
-        self.currentNum = 0
-        self.equationArr = []
         
         self.window=Tk()
         self.window.minsize(450, 600)
         self.window.config(bg='#001524')
-        # self.window.bind('<Configure>', resize)
 
         Grid.rowconfigure(self.window, 0, weight=2)
         Grid.columnconfigure(self.window, 0, weight=2)
